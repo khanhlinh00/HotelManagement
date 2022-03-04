@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation Layer", "Presentation Layer", "{60C7048C-D949-4DF8-BD22-DB388D4E78BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelWinApp", "HotelWinApp\HotelWinApp.csproj", "{9E477FFE-9BFE-4B2F-BEF8-04BF211E33EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E477FFE-9BFE-4B2F-BEF8-04BF211E33EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E477FFE-9BFE-4B2F-BEF8-04BF211E33EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E477FFE-9BFE-4B2F-BEF8-04BF211E33EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E477FFE-9BFE-4B2F-BEF8-04BF211E33EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E477FFE-9BFE-4B2F-BEF8-04BF211E33EC} = {60C7048C-D949-4DF8-BD22-DB388D4E78BF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86FDF0DE-060D-44EF-BD76-431E4FF95639}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dDq1KQAWy36bCtZkl8qajfaVUxda33FwsKavxotwEr5P7MnwDJ5Ju86CoYIWU9BsQpdq72dVGL7G0T6U870jVA==",
+  "success": true,
+  "projectFilePath": "E:\\Works\\CN5\\PRN211\\Code PRN\\HotelManagement\\HotelWinApp\\HotelWinApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
