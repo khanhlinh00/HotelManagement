@@ -30,7 +30,6 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.lbRoomType = new System.Windows.Forms.Label();
-            this.lbBookingName = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -42,7 +41,6 @@
             this.lbTotalDetailInfo = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.cbRoomType = new System.Windows.Forms.ComboBox();
-            this.cbBookingName = new System.Windows.Forms.ComboBox();
             this.cbRoomID = new System.Windows.Forms.ComboBox();
             this.txtNumberOfCustomer = new System.Windows.Forms.TextBox();
             this.txtNationality = new System.Windows.Forms.TextBox();
@@ -91,21 +89,11 @@
             this.lbRoomType.TabIndex = 1;
             this.lbRoomType.Text = "Room Type";
             // 
-            // lbBookingName
-            // 
-            this.lbBookingName.AutoSize = true;
-            this.lbBookingName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbBookingName.Location = new System.Drawing.Point(59, 110);
-            this.lbBookingName.Name = "lbBookingName";
-            this.lbBookingName.Size = new System.Drawing.Size(113, 21);
-            this.lbBookingName.TabIndex = 1;
-            this.lbBookingName.Text = "Booking Name";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(59, 151);
+            this.label2.Location = new System.Drawing.Point(59, 114);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(158, 21);
             this.label2.TabIndex = 1;
@@ -115,7 +103,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(59, 194);
+            this.label3.Location = new System.Drawing.Point(59, 157);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(96, 21);
             this.label3.TabIndex = 1;
@@ -125,7 +113,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(59, 236);
+            this.label4.Location = new System.Drawing.Point(59, 199);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(90, 21);
             this.label4.TabIndex = 1;
@@ -175,17 +163,17 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.Location = new System.Drawing.Point(456, 236);
+            this.label9.Location = new System.Drawing.Point(322, 249);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(128, 21);
+            this.label9.Size = new System.Drawing.Size(87, 21);
             this.label9.TabIndex = 1;
-            this.label9.Text = "Order detail total";
+            this.label9.Text = "Order Total";
             // 
             // lbTotalDetailInfo
             // 
             this.lbTotalDetailInfo.AutoSize = true;
             this.lbTotalDetailInfo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbTotalDetailInfo.Location = new System.Drawing.Point(608, 236);
+            this.lbTotalDetailInfo.Location = new System.Drawing.Point(474, 249);
             this.lbTotalDetailInfo.Name = "lbTotalDetailInfo";
             this.lbTotalDetailInfo.Size = new System.Drawing.Size(19, 21);
             this.lbTotalDetailInfo.TabIndex = 2;
@@ -195,7 +183,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label11.Location = new System.Drawing.Point(704, 236);
+            this.label11.Location = new System.Drawing.Point(570, 249);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(43, 21);
             this.label11.TabIndex = 3;
@@ -214,14 +202,6 @@
             this.cbRoomType.TabIndex = 4;
             this.cbRoomType.Text = "Normal";
             // 
-            // cbBookingName
-            // 
-            this.cbBookingName.FormattingEnabled = true;
-            this.cbBookingName.Location = new System.Drawing.Point(249, 110);
-            this.cbBookingName.Name = "cbBookingName";
-            this.cbBookingName.Size = new System.Drawing.Size(139, 23);
-            this.cbBookingName.TabIndex = 4;
-            // 
             // cbRoomID
             // 
             this.cbRoomID.FormattingEnabled = true;
@@ -232,7 +212,7 @@
             // 
             // txtNumberOfCustomer
             // 
-            this.txtNumberOfCustomer.Location = new System.Drawing.Point(249, 149);
+            this.txtNumberOfCustomer.Location = new System.Drawing.Point(249, 112);
             this.txtNumberOfCustomer.Name = "txtNumberOfCustomer";
             this.txtNumberOfCustomer.Size = new System.Drawing.Size(139, 23);
             this.txtNumberOfCustomer.TabIndex = 5;
@@ -253,14 +233,14 @@
             // 
             // txtRoomPrice
             // 
-            this.txtRoomPrice.Location = new System.Drawing.Point(249, 233);
+            this.txtRoomPrice.Location = new System.Drawing.Point(249, 196);
             this.txtRoomPrice.Name = "txtRoomPrice";
             this.txtRoomPrice.Size = new System.Drawing.Size(139, 23);
             this.txtRoomPrice.TabIndex = 5;
             // 
             // dtpCheckInDay
             // 
-            this.dtpCheckInDay.Location = new System.Drawing.Point(249, 193);
+            this.dtpCheckInDay.Location = new System.Drawing.Point(249, 156);
             this.dtpCheckInDay.Name = "dtpCheckInDay";
             this.dtpCheckInDay.Size = new System.Drawing.Size(139, 23);
             this.dtpCheckInDay.TabIndex = 6;
@@ -463,7 +443,6 @@
             this.Controls.Add(this.txtNumberOfCustomer);
             this.Controls.Add(this.cbRoomID);
             this.Controls.Add(this.cbServiceName);
-            this.Controls.Add(this.cbBookingName);
             this.Controls.Add(this.cbRoomType);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label16);
@@ -483,7 +462,6 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.lbBookingName);
             this.Controls.Add(this.lbRoomType);
             this.Controls.Add(this.label1);
             this.Name = "frmRoomDetail";
@@ -500,7 +478,6 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lbRoomType;
-        private System.Windows.Forms.Label lbBookingName;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
@@ -512,7 +489,6 @@
         private System.Windows.Forms.Label lbTotalDetailInfo;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.ComboBox cbRoomType;
-        private System.Windows.Forms.ComboBox cbBookingName;
         private System.Windows.Forms.ComboBox cbRoomID;
         private System.Windows.Forms.TextBox txtNumberOfCustomer;
         private System.Windows.Forms.TextBox txtNationality;

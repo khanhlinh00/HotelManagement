@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.btnRoom = new System.Windows.Forms.Button();
             this.lbTitle = new System.Windows.Forms.Label();
-            this.label = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -39,7 +38,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.lbRoomIDInfo1 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.lbBookingNameInfo1 = new System.Windows.Forms.Label();
             this.lbCustomerNameInfo1 = new System.Windows.Forms.Label();
             this.lbNumberOfCustomerInfo1 = new System.Windows.Forms.Label();
             this.lbNationalityInfo1 = new System.Windows.Forms.Label();
@@ -49,7 +47,6 @@
             this.pnSidebar = new System.Windows.Forms.Panel();
             this.btnCustomer = new System.Windows.Forms.Button();
             this.btnEmployee = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -57,14 +54,12 @@
             this.label13 = new System.Windows.Forms.Label();
             this.lbRoomIDInfo2 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.lbBookingNameInfo2 = new System.Windows.Forms.Label();
             this.lbCustomerNameInfo2 = new System.Windows.Forms.Label();
             this.frmNumberOfCustomerInfo2 = new System.Windows.Forms.Label();
             this.lbNationalityInfo2 = new System.Windows.Forms.Label();
             this.lbCheckinDayInfo2 = new System.Windows.Forms.Label();
             this.lbCheckoutDayInfo2 = new System.Windows.Forms.Label();
             this.cbRoomStatus2 = new System.Windows.Forms.ComboBox();
-            this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
@@ -72,18 +67,14 @@
             this.label27 = new System.Windows.Forms.Label();
             this.lbRoomIDInfo3 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
-            this.lbBookingNameInfo3 = new System.Windows.Forms.Label();
             this.lbCustomerNameInfo3 = new System.Windows.Forms.Label();
             this.lbNumberOfCustomerInfo3 = new System.Windows.Forms.Label();
             this.lbNationalityInfo3 = new System.Windows.Forms.Label();
             this.lbCheckinDayInfo3 = new System.Windows.Forms.Label();
             this.lbCheckoutDayInfo = new System.Windows.Forms.Label();
             this.cbRoomStatus3 = new System.Windows.Forms.ComboBox();
-            this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
             this.label43 = new System.Windows.Forms.Label();
@@ -103,9 +94,6 @@
             this.label57 = new System.Windows.Forms.Label();
             this.label58 = new System.Windows.Forms.Label();
             this.label59 = new System.Windows.Forms.Label();
-            this.lbBookingNameInfo4 = new System.Windows.Forms.Label();
-            this.lbBookingNameInfo5 = new System.Windows.Forms.Label();
-            this.lbBookingNameInfo6 = new System.Windows.Forms.Label();
             this.lbCustomerNameInfo4 = new System.Windows.Forms.Label();
             this.lbCustomerNameInfo5 = new System.Windows.Forms.Label();
             this.lbCustomerNameInfo6 = new System.Windows.Forms.Label();
@@ -171,19 +159,10 @@
             this.lbTitle.TabIndex = 1;
             this.lbTitle.Text = "Hotel Management";
             // 
-            // label
-            // 
-            this.label.AutoSize = true;
-            this.label.Location = new System.Drawing.Point(250, 124);
-            this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(86, 15);
-            this.label.TabIndex = 2;
-            this.label.Text = "Booking Name";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(250, 153);
+            this.label2.Location = new System.Drawing.Point(251, 134);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(94, 15);
             this.label2.TabIndex = 2;
@@ -192,7 +171,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(250, 182);
+            this.label3.Location = new System.Drawing.Point(251, 163);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(120, 15);
             this.label3.TabIndex = 2;
@@ -201,7 +180,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(250, 213);
+            this.label4.Location = new System.Drawing.Point(251, 194);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(65, 15);
             this.label4.TabIndex = 2;
@@ -210,7 +189,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(250, 244);
+            this.label5.Location = new System.Drawing.Point(251, 225);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(73, 15);
             this.label5.TabIndex = 2;
@@ -219,7 +198,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(250, 273);
+            this.label1.Location = new System.Drawing.Point(251, 254);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(81, 15);
             this.label1.TabIndex = 2;
@@ -238,25 +217,16 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(250, 303);
+            this.label7.Location = new System.Drawing.Point(251, 284);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(74, 15);
             this.label7.TabIndex = 4;
             this.label7.Text = "Room Status";
             // 
-            // lbBookingNameInfo1
-            // 
-            this.lbBookingNameInfo1.AutoSize = true;
-            this.lbBookingNameInfo1.Location = new System.Drawing.Point(383, 124);
-            this.lbBookingNameInfo1.Name = "lbBookingNameInfo1";
-            this.lbBookingNameInfo1.Size = new System.Drawing.Size(117, 15);
-            this.lbBookingNameInfo1.TabIndex = 5;
-            this.lbBookingNameInfo1.Text = "______________________";
-            // 
             // lbCustomerNameInfo1
             // 
             this.lbCustomerNameInfo1.AutoSize = true;
-            this.lbCustomerNameInfo1.Location = new System.Drawing.Point(383, 153);
+            this.lbCustomerNameInfo1.Location = new System.Drawing.Point(384, 134);
             this.lbCustomerNameInfo1.Name = "lbCustomerNameInfo1";
             this.lbCustomerNameInfo1.Size = new System.Drawing.Size(117, 15);
             this.lbCustomerNameInfo1.TabIndex = 5;
@@ -265,7 +235,7 @@
             // lbNumberOfCustomerInfo1
             // 
             this.lbNumberOfCustomerInfo1.AutoSize = true;
-            this.lbNumberOfCustomerInfo1.Location = new System.Drawing.Point(383, 182);
+            this.lbNumberOfCustomerInfo1.Location = new System.Drawing.Point(384, 163);
             this.lbNumberOfCustomerInfo1.Name = "lbNumberOfCustomerInfo1";
             this.lbNumberOfCustomerInfo1.Size = new System.Drawing.Size(117, 15);
             this.lbNumberOfCustomerInfo1.TabIndex = 5;
@@ -274,7 +244,7 @@
             // lbNationalityInfo1
             // 
             this.lbNationalityInfo1.AutoSize = true;
-            this.lbNationalityInfo1.Location = new System.Drawing.Point(383, 213);
+            this.lbNationalityInfo1.Location = new System.Drawing.Point(384, 194);
             this.lbNationalityInfo1.Name = "lbNationalityInfo1";
             this.lbNationalityInfo1.Size = new System.Drawing.Size(117, 15);
             this.lbNationalityInfo1.TabIndex = 5;
@@ -283,7 +253,7 @@
             // lbCheckinDayInfo1
             // 
             this.lbCheckinDayInfo1.AutoSize = true;
-            this.lbCheckinDayInfo1.Location = new System.Drawing.Point(383, 244);
+            this.lbCheckinDayInfo1.Location = new System.Drawing.Point(384, 225);
             this.lbCheckinDayInfo1.Name = "lbCheckinDayInfo1";
             this.lbCheckinDayInfo1.Size = new System.Drawing.Size(117, 15);
             this.lbCheckinDayInfo1.TabIndex = 5;
@@ -292,7 +262,7 @@
             // lbCheckoutDayInfo1
             // 
             this.lbCheckoutDayInfo1.AutoSize = true;
-            this.lbCheckoutDayInfo1.Location = new System.Drawing.Point(383, 273);
+            this.lbCheckoutDayInfo1.Location = new System.Drawing.Point(384, 254);
             this.lbCheckoutDayInfo1.Name = "lbCheckoutDayInfo1";
             this.lbCheckoutDayInfo1.Size = new System.Drawing.Size(117, 15);
             this.lbCheckoutDayInfo1.TabIndex = 5;
@@ -305,7 +275,7 @@
             "Empty",
             "Booked",
             "Cleaning"});
-            this.cbRoomStatus1.Location = new System.Drawing.Point(383, 303);
+            this.cbRoomStatus1.Location = new System.Drawing.Point(384, 284);
             this.cbRoomStatus1.Name = "cbRoomStatus1";
             this.cbRoomStatus1.Size = new System.Drawing.Size(118, 23);
             this.cbRoomStatus1.TabIndex = 6;
@@ -346,19 +316,10 @@
             this.btnEmployee.Text = "Employees Management";
             this.btnEmployee.UseVisualStyleBackColor = false;
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(553, 124);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(86, 15);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "Booking Name";
-            // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(553, 153);
+            this.label9.Location = new System.Drawing.Point(554, 134);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(94, 15);
             this.label9.TabIndex = 2;
@@ -367,7 +328,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(553, 182);
+            this.label10.Location = new System.Drawing.Point(554, 163);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(120, 15);
             this.label10.TabIndex = 2;
@@ -376,7 +337,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(553, 213);
+            this.label11.Location = new System.Drawing.Point(554, 194);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(65, 15);
             this.label11.TabIndex = 2;
@@ -385,7 +346,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(553, 244);
+            this.label12.Location = new System.Drawing.Point(554, 225);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(73, 15);
             this.label12.TabIndex = 2;
@@ -394,7 +355,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(553, 273);
+            this.label13.Location = new System.Drawing.Point(554, 254);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(81, 15);
             this.label13.TabIndex = 2;
@@ -413,25 +374,16 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(553, 303);
+            this.label15.Location = new System.Drawing.Point(554, 284);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(74, 15);
             this.label15.TabIndex = 4;
             this.label15.Text = "Room Status";
             // 
-            // lbBookingNameInfo2
-            // 
-            this.lbBookingNameInfo2.AutoSize = true;
-            this.lbBookingNameInfo2.Location = new System.Drawing.Point(686, 124);
-            this.lbBookingNameInfo2.Name = "lbBookingNameInfo2";
-            this.lbBookingNameInfo2.Size = new System.Drawing.Size(117, 15);
-            this.lbBookingNameInfo2.TabIndex = 5;
-            this.lbBookingNameInfo2.Text = "______________________";
-            // 
             // lbCustomerNameInfo2
             // 
             this.lbCustomerNameInfo2.AutoSize = true;
-            this.lbCustomerNameInfo2.Location = new System.Drawing.Point(686, 153);
+            this.lbCustomerNameInfo2.Location = new System.Drawing.Point(687, 134);
             this.lbCustomerNameInfo2.Name = "lbCustomerNameInfo2";
             this.lbCustomerNameInfo2.Size = new System.Drawing.Size(117, 15);
             this.lbCustomerNameInfo2.TabIndex = 5;
@@ -440,7 +392,7 @@
             // frmNumberOfCustomerInfo2
             // 
             this.frmNumberOfCustomerInfo2.AutoSize = true;
-            this.frmNumberOfCustomerInfo2.Location = new System.Drawing.Point(686, 182);
+            this.frmNumberOfCustomerInfo2.Location = new System.Drawing.Point(687, 163);
             this.frmNumberOfCustomerInfo2.Name = "frmNumberOfCustomerInfo2";
             this.frmNumberOfCustomerInfo2.Size = new System.Drawing.Size(117, 15);
             this.frmNumberOfCustomerInfo2.TabIndex = 5;
@@ -449,7 +401,7 @@
             // lbNationalityInfo2
             // 
             this.lbNationalityInfo2.AutoSize = true;
-            this.lbNationalityInfo2.Location = new System.Drawing.Point(686, 213);
+            this.lbNationalityInfo2.Location = new System.Drawing.Point(687, 194);
             this.lbNationalityInfo2.Name = "lbNationalityInfo2";
             this.lbNationalityInfo2.Size = new System.Drawing.Size(117, 15);
             this.lbNationalityInfo2.TabIndex = 5;
@@ -458,7 +410,7 @@
             // lbCheckinDayInfo2
             // 
             this.lbCheckinDayInfo2.AutoSize = true;
-            this.lbCheckinDayInfo2.Location = new System.Drawing.Point(686, 244);
+            this.lbCheckinDayInfo2.Location = new System.Drawing.Point(687, 225);
             this.lbCheckinDayInfo2.Name = "lbCheckinDayInfo2";
             this.lbCheckinDayInfo2.Size = new System.Drawing.Size(117, 15);
             this.lbCheckinDayInfo2.TabIndex = 5;
@@ -467,7 +419,7 @@
             // lbCheckoutDayInfo2
             // 
             this.lbCheckoutDayInfo2.AutoSize = true;
-            this.lbCheckoutDayInfo2.Location = new System.Drawing.Point(686, 273);
+            this.lbCheckoutDayInfo2.Location = new System.Drawing.Point(687, 254);
             this.lbCheckoutDayInfo2.Name = "lbCheckoutDayInfo2";
             this.lbCheckoutDayInfo2.Size = new System.Drawing.Size(117, 15);
             this.lbCheckoutDayInfo2.TabIndex = 5;
@@ -480,25 +432,16 @@
             "Empty",
             "Booked",
             "Cleaning"});
-            this.cbRoomStatus2.Location = new System.Drawing.Point(686, 303);
+            this.cbRoomStatus2.Location = new System.Drawing.Point(687, 284);
             this.cbRoomStatus2.Name = "cbRoomStatus2";
             this.cbRoomStatus2.Size = new System.Drawing.Size(118, 23);
             this.cbRoomStatus2.TabIndex = 6;
             this.cbRoomStatus2.Text = "Empty";
             // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(866, 124);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(86, 15);
-            this.label22.TabIndex = 2;
-            this.label22.Text = "Booking Name";
-            // 
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(866, 153);
+            this.label23.Location = new System.Drawing.Point(867, 134);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(94, 15);
             this.label23.TabIndex = 2;
@@ -507,7 +450,7 @@
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(866, 182);
+            this.label24.Location = new System.Drawing.Point(867, 163);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(120, 15);
             this.label24.TabIndex = 2;
@@ -516,7 +459,7 @@
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(866, 213);
+            this.label25.Location = new System.Drawing.Point(867, 194);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(65, 15);
             this.label25.TabIndex = 2;
@@ -525,7 +468,7 @@
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(866, 244);
+            this.label26.Location = new System.Drawing.Point(867, 225);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(73, 15);
             this.label26.TabIndex = 2;
@@ -534,7 +477,7 @@
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(866, 273);
+            this.label27.Location = new System.Drawing.Point(867, 254);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(81, 15);
             this.label27.TabIndex = 2;
@@ -553,25 +496,16 @@
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(866, 303);
+            this.label29.Location = new System.Drawing.Point(867, 284);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(74, 15);
             this.label29.TabIndex = 4;
             this.label29.Text = "Room Status";
             // 
-            // lbBookingNameInfo3
-            // 
-            this.lbBookingNameInfo3.AutoSize = true;
-            this.lbBookingNameInfo3.Location = new System.Drawing.Point(999, 124);
-            this.lbBookingNameInfo3.Name = "lbBookingNameInfo3";
-            this.lbBookingNameInfo3.Size = new System.Drawing.Size(117, 15);
-            this.lbBookingNameInfo3.TabIndex = 5;
-            this.lbBookingNameInfo3.Text = "______________________";
-            // 
             // lbCustomerNameInfo3
             // 
             this.lbCustomerNameInfo3.AutoSize = true;
-            this.lbCustomerNameInfo3.Location = new System.Drawing.Point(999, 153);
+            this.lbCustomerNameInfo3.Location = new System.Drawing.Point(1000, 134);
             this.lbCustomerNameInfo3.Name = "lbCustomerNameInfo3";
             this.lbCustomerNameInfo3.Size = new System.Drawing.Size(117, 15);
             this.lbCustomerNameInfo3.TabIndex = 5;
@@ -580,7 +514,7 @@
             // lbNumberOfCustomerInfo3
             // 
             this.lbNumberOfCustomerInfo3.AutoSize = true;
-            this.lbNumberOfCustomerInfo3.Location = new System.Drawing.Point(999, 182);
+            this.lbNumberOfCustomerInfo3.Location = new System.Drawing.Point(1000, 163);
             this.lbNumberOfCustomerInfo3.Name = "lbNumberOfCustomerInfo3";
             this.lbNumberOfCustomerInfo3.Size = new System.Drawing.Size(117, 15);
             this.lbNumberOfCustomerInfo3.TabIndex = 5;
@@ -589,7 +523,7 @@
             // lbNationalityInfo3
             // 
             this.lbNationalityInfo3.AutoSize = true;
-            this.lbNationalityInfo3.Location = new System.Drawing.Point(999, 213);
+            this.lbNationalityInfo3.Location = new System.Drawing.Point(1000, 194);
             this.lbNationalityInfo3.Name = "lbNationalityInfo3";
             this.lbNationalityInfo3.Size = new System.Drawing.Size(117, 15);
             this.lbNationalityInfo3.TabIndex = 5;
@@ -598,7 +532,7 @@
             // lbCheckinDayInfo3
             // 
             this.lbCheckinDayInfo3.AutoSize = true;
-            this.lbCheckinDayInfo3.Location = new System.Drawing.Point(999, 244);
+            this.lbCheckinDayInfo3.Location = new System.Drawing.Point(1000, 225);
             this.lbCheckinDayInfo3.Name = "lbCheckinDayInfo3";
             this.lbCheckinDayInfo3.Size = new System.Drawing.Size(117, 15);
             this.lbCheckinDayInfo3.TabIndex = 5;
@@ -607,7 +541,7 @@
             // lbCheckoutDayInfo
             // 
             this.lbCheckoutDayInfo.AutoSize = true;
-            this.lbCheckoutDayInfo.Location = new System.Drawing.Point(999, 273);
+            this.lbCheckoutDayInfo.Location = new System.Drawing.Point(1000, 254);
             this.lbCheckoutDayInfo.Name = "lbCheckoutDayInfo";
             this.lbCheckoutDayInfo.Size = new System.Drawing.Size(117, 15);
             this.lbCheckoutDayInfo.TabIndex = 5;
@@ -620,61 +554,34 @@
             "Empty",
             "Booked",
             "Cleaning"});
-            this.cbRoomStatus3.Location = new System.Drawing.Point(999, 303);
+            this.cbRoomStatus3.Location = new System.Drawing.Point(1000, 284);
             this.cbRoomStatus3.Name = "cbRoomStatus3";
             this.cbRoomStatus3.Size = new System.Drawing.Size(118, 23);
             this.cbRoomStatus3.TabIndex = 6;
             this.cbRoomStatus3.Text = "Empty";
             // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(250, 462);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(86, 15);
-            this.label36.TabIndex = 2;
-            this.label36.Text = "Booking Name";
-            // 
             // label37
             // 
             this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(250, 491);
+            this.label37.Location = new System.Drawing.Point(250, 462);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(94, 15);
             this.label37.TabIndex = 2;
             this.label37.Text = "Customer Name";
             // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(553, 462);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(86, 15);
-            this.label38.TabIndex = 2;
-            this.label38.Text = "Booking Name";
-            // 
             // label39
             // 
             this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(250, 520);
+            this.label39.Location = new System.Drawing.Point(250, 491);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(120, 15);
             this.label39.TabIndex = 2;
             this.label39.Text = "Number of Customer";
             // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(866, 462);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(86, 15);
-            this.label40.TabIndex = 2;
-            this.label40.Text = "Booking Name";
-            // 
             // label41
             // 
             this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(553, 491);
+            this.label41.Location = new System.Drawing.Point(553, 462);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(94, 15);
             this.label41.TabIndex = 2;
@@ -683,7 +590,7 @@
             // label42
             // 
             this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(250, 551);
+            this.label42.Location = new System.Drawing.Point(250, 522);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(65, 15);
             this.label42.TabIndex = 2;
@@ -692,7 +599,7 @@
             // label43
             // 
             this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(866, 491);
+            this.label43.Location = new System.Drawing.Point(866, 462);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(94, 15);
             this.label43.TabIndex = 2;
@@ -701,7 +608,7 @@
             // label44
             // 
             this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(553, 520);
+            this.label44.Location = new System.Drawing.Point(553, 491);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(120, 15);
             this.label44.TabIndex = 2;
@@ -710,7 +617,7 @@
             // label45
             // 
             this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(250, 582);
+            this.label45.Location = new System.Drawing.Point(250, 553);
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(73, 15);
             this.label45.TabIndex = 2;
@@ -719,7 +626,7 @@
             // label46
             // 
             this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(866, 520);
+            this.label46.Location = new System.Drawing.Point(866, 491);
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(120, 15);
             this.label46.TabIndex = 2;
@@ -728,7 +635,7 @@
             // label47
             // 
             this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(553, 551);
+            this.label47.Location = new System.Drawing.Point(553, 522);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(65, 15);
             this.label47.TabIndex = 2;
@@ -737,7 +644,7 @@
             // label48
             // 
             this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(250, 611);
+            this.label48.Location = new System.Drawing.Point(250, 582);
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(81, 15);
             this.label48.TabIndex = 2;
@@ -746,7 +653,7 @@
             // label49
             // 
             this.label49.AutoSize = true;
-            this.label49.Location = new System.Drawing.Point(866, 551);
+            this.label49.Location = new System.Drawing.Point(866, 522);
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(65, 15);
             this.label49.TabIndex = 2;
@@ -755,7 +662,7 @@
             // label50
             // 
             this.label50.AutoSize = true;
-            this.label50.Location = new System.Drawing.Point(553, 582);
+            this.label50.Location = new System.Drawing.Point(553, 553);
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(73, 15);
             this.label50.TabIndex = 2;
@@ -774,7 +681,7 @@
             // label52
             // 
             this.label52.AutoSize = true;
-            this.label52.Location = new System.Drawing.Point(866, 582);
+            this.label52.Location = new System.Drawing.Point(866, 553);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(73, 15);
             this.label52.TabIndex = 2;
@@ -783,7 +690,7 @@
             // label53
             // 
             this.label53.AutoSize = true;
-            this.label53.Location = new System.Drawing.Point(553, 611);
+            this.label53.Location = new System.Drawing.Point(553, 582);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(81, 15);
             this.label53.TabIndex = 2;
@@ -802,7 +709,7 @@
             // label55
             // 
             this.label55.AutoSize = true;
-            this.label55.Location = new System.Drawing.Point(866, 611);
+            this.label55.Location = new System.Drawing.Point(866, 582);
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(81, 15);
             this.label55.TabIndex = 2;
@@ -821,7 +728,7 @@
             // label57
             // 
             this.label57.AutoSize = true;
-            this.label57.Location = new System.Drawing.Point(250, 641);
+            this.label57.Location = new System.Drawing.Point(250, 612);
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(74, 15);
             this.label57.TabIndex = 4;
@@ -830,7 +737,7 @@
             // label58
             // 
             this.label58.AutoSize = true;
-            this.label58.Location = new System.Drawing.Point(553, 641);
+            this.label58.Location = new System.Drawing.Point(553, 612);
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(74, 15);
             this.label58.TabIndex = 4;
@@ -839,43 +746,16 @@
             // label59
             // 
             this.label59.AutoSize = true;
-            this.label59.Location = new System.Drawing.Point(866, 641);
+            this.label59.Location = new System.Drawing.Point(866, 612);
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(74, 15);
             this.label59.TabIndex = 4;
             this.label59.Text = "Room Status";
             // 
-            // lbBookingNameInfo4
-            // 
-            this.lbBookingNameInfo4.AutoSize = true;
-            this.lbBookingNameInfo4.Location = new System.Drawing.Point(383, 462);
-            this.lbBookingNameInfo4.Name = "lbBookingNameInfo4";
-            this.lbBookingNameInfo4.Size = new System.Drawing.Size(117, 15);
-            this.lbBookingNameInfo4.TabIndex = 5;
-            this.lbBookingNameInfo4.Text = "______________________";
-            // 
-            // lbBookingNameInfo5
-            // 
-            this.lbBookingNameInfo5.AutoSize = true;
-            this.lbBookingNameInfo5.Location = new System.Drawing.Point(686, 462);
-            this.lbBookingNameInfo5.Name = "lbBookingNameInfo5";
-            this.lbBookingNameInfo5.Size = new System.Drawing.Size(117, 15);
-            this.lbBookingNameInfo5.TabIndex = 5;
-            this.lbBookingNameInfo5.Text = "______________________";
-            // 
-            // lbBookingNameInfo6
-            // 
-            this.lbBookingNameInfo6.AutoSize = true;
-            this.lbBookingNameInfo6.Location = new System.Drawing.Point(999, 462);
-            this.lbBookingNameInfo6.Name = "lbBookingNameInfo6";
-            this.lbBookingNameInfo6.Size = new System.Drawing.Size(117, 15);
-            this.lbBookingNameInfo6.TabIndex = 5;
-            this.lbBookingNameInfo6.Text = "______________________";
-            // 
             // lbCustomerNameInfo4
             // 
             this.lbCustomerNameInfo4.AutoSize = true;
-            this.lbCustomerNameInfo4.Location = new System.Drawing.Point(383, 491);
+            this.lbCustomerNameInfo4.Location = new System.Drawing.Point(383, 462);
             this.lbCustomerNameInfo4.Name = "lbCustomerNameInfo4";
             this.lbCustomerNameInfo4.Size = new System.Drawing.Size(117, 15);
             this.lbCustomerNameInfo4.TabIndex = 5;
@@ -884,7 +764,7 @@
             // lbCustomerNameInfo5
             // 
             this.lbCustomerNameInfo5.AutoSize = true;
-            this.lbCustomerNameInfo5.Location = new System.Drawing.Point(686, 491);
+            this.lbCustomerNameInfo5.Location = new System.Drawing.Point(686, 462);
             this.lbCustomerNameInfo5.Name = "lbCustomerNameInfo5";
             this.lbCustomerNameInfo5.Size = new System.Drawing.Size(117, 15);
             this.lbCustomerNameInfo5.TabIndex = 5;
@@ -893,7 +773,7 @@
             // lbCustomerNameInfo6
             // 
             this.lbCustomerNameInfo6.AutoSize = true;
-            this.lbCustomerNameInfo6.Location = new System.Drawing.Point(999, 491);
+            this.lbCustomerNameInfo6.Location = new System.Drawing.Point(999, 462);
             this.lbCustomerNameInfo6.Name = "lbCustomerNameInfo6";
             this.lbCustomerNameInfo6.Size = new System.Drawing.Size(117, 15);
             this.lbCustomerNameInfo6.TabIndex = 5;
@@ -902,7 +782,7 @@
             // lbNumberOfCustomerInfo4
             // 
             this.lbNumberOfCustomerInfo4.AutoSize = true;
-            this.lbNumberOfCustomerInfo4.Location = new System.Drawing.Point(383, 520);
+            this.lbNumberOfCustomerInfo4.Location = new System.Drawing.Point(383, 491);
             this.lbNumberOfCustomerInfo4.Name = "lbNumberOfCustomerInfo4";
             this.lbNumberOfCustomerInfo4.Size = new System.Drawing.Size(117, 15);
             this.lbNumberOfCustomerInfo4.TabIndex = 5;
@@ -911,7 +791,7 @@
             // lbNumberOfCustomerInfo5
             // 
             this.lbNumberOfCustomerInfo5.AutoSize = true;
-            this.lbNumberOfCustomerInfo5.Location = new System.Drawing.Point(686, 520);
+            this.lbNumberOfCustomerInfo5.Location = new System.Drawing.Point(686, 491);
             this.lbNumberOfCustomerInfo5.Name = "lbNumberOfCustomerInfo5";
             this.lbNumberOfCustomerInfo5.Size = new System.Drawing.Size(117, 15);
             this.lbNumberOfCustomerInfo5.TabIndex = 5;
@@ -920,7 +800,7 @@
             // lbNumberOfCustomerInfo6
             // 
             this.lbNumberOfCustomerInfo6.AutoSize = true;
-            this.lbNumberOfCustomerInfo6.Location = new System.Drawing.Point(999, 520);
+            this.lbNumberOfCustomerInfo6.Location = new System.Drawing.Point(999, 491);
             this.lbNumberOfCustomerInfo6.Name = "lbNumberOfCustomerInfo6";
             this.lbNumberOfCustomerInfo6.Size = new System.Drawing.Size(117, 15);
             this.lbNumberOfCustomerInfo6.TabIndex = 5;
@@ -929,7 +809,7 @@
             // lbNationalityInfo4
             // 
             this.lbNationalityInfo4.AutoSize = true;
-            this.lbNationalityInfo4.Location = new System.Drawing.Point(383, 551);
+            this.lbNationalityInfo4.Location = new System.Drawing.Point(383, 522);
             this.lbNationalityInfo4.Name = "lbNationalityInfo4";
             this.lbNationalityInfo4.Size = new System.Drawing.Size(117, 15);
             this.lbNationalityInfo4.TabIndex = 5;
@@ -938,7 +818,7 @@
             // lbNationalityInfo5
             // 
             this.lbNationalityInfo5.AutoSize = true;
-            this.lbNationalityInfo5.Location = new System.Drawing.Point(686, 551);
+            this.lbNationalityInfo5.Location = new System.Drawing.Point(686, 522);
             this.lbNationalityInfo5.Name = "lbNationalityInfo5";
             this.lbNationalityInfo5.Size = new System.Drawing.Size(117, 15);
             this.lbNationalityInfo5.TabIndex = 5;
@@ -947,7 +827,7 @@
             // lbNationalityInfo6
             // 
             this.lbNationalityInfo6.AutoSize = true;
-            this.lbNationalityInfo6.Location = new System.Drawing.Point(999, 551);
+            this.lbNationalityInfo6.Location = new System.Drawing.Point(999, 522);
             this.lbNationalityInfo6.Name = "lbNationalityInfo6";
             this.lbNationalityInfo6.Size = new System.Drawing.Size(117, 15);
             this.lbNationalityInfo6.TabIndex = 5;
@@ -956,7 +836,7 @@
             // lbCheckinDayInfo4
             // 
             this.lbCheckinDayInfo4.AutoSize = true;
-            this.lbCheckinDayInfo4.Location = new System.Drawing.Point(383, 582);
+            this.lbCheckinDayInfo4.Location = new System.Drawing.Point(383, 553);
             this.lbCheckinDayInfo4.Name = "lbCheckinDayInfo4";
             this.lbCheckinDayInfo4.Size = new System.Drawing.Size(117, 15);
             this.lbCheckinDayInfo4.TabIndex = 5;
@@ -965,7 +845,7 @@
             // lbCheckinDayInfo5
             // 
             this.lbCheckinDayInfo5.AutoSize = true;
-            this.lbCheckinDayInfo5.Location = new System.Drawing.Point(686, 582);
+            this.lbCheckinDayInfo5.Location = new System.Drawing.Point(686, 553);
             this.lbCheckinDayInfo5.Name = "lbCheckinDayInfo5";
             this.lbCheckinDayInfo5.Size = new System.Drawing.Size(117, 15);
             this.lbCheckinDayInfo5.TabIndex = 5;
@@ -974,7 +854,7 @@
             // lbCheckinDayInfo6
             // 
             this.lbCheckinDayInfo6.AutoSize = true;
-            this.lbCheckinDayInfo6.Location = new System.Drawing.Point(999, 582);
+            this.lbCheckinDayInfo6.Location = new System.Drawing.Point(999, 553);
             this.lbCheckinDayInfo6.Name = "lbCheckinDayInfo6";
             this.lbCheckinDayInfo6.Size = new System.Drawing.Size(117, 15);
             this.lbCheckinDayInfo6.TabIndex = 5;
@@ -983,7 +863,7 @@
             // lbCheckoutDayInfo4
             // 
             this.lbCheckoutDayInfo4.AutoSize = true;
-            this.lbCheckoutDayInfo4.Location = new System.Drawing.Point(383, 611);
+            this.lbCheckoutDayInfo4.Location = new System.Drawing.Point(383, 582);
             this.lbCheckoutDayInfo4.Name = "lbCheckoutDayInfo4";
             this.lbCheckoutDayInfo4.Size = new System.Drawing.Size(117, 15);
             this.lbCheckoutDayInfo4.TabIndex = 5;
@@ -992,7 +872,7 @@
             // lbCheckoutDayInfo5
             // 
             this.lbCheckoutDayInfo5.AutoSize = true;
-            this.lbCheckoutDayInfo5.Location = new System.Drawing.Point(686, 611);
+            this.lbCheckoutDayInfo5.Location = new System.Drawing.Point(686, 582);
             this.lbCheckoutDayInfo5.Name = "lbCheckoutDayInfo5";
             this.lbCheckoutDayInfo5.Size = new System.Drawing.Size(117, 15);
             this.lbCheckoutDayInfo5.TabIndex = 5;
@@ -1001,7 +881,7 @@
             // lbCheckoutDayInfo6
             // 
             this.lbCheckoutDayInfo6.AutoSize = true;
-            this.lbCheckoutDayInfo6.Location = new System.Drawing.Point(999, 611);
+            this.lbCheckoutDayInfo6.Location = new System.Drawing.Point(999, 582);
             this.lbCheckoutDayInfo6.Name = "lbCheckoutDayInfo6";
             this.lbCheckoutDayInfo6.Size = new System.Drawing.Size(117, 15);
             this.lbCheckoutDayInfo6.TabIndex = 5;
@@ -1014,7 +894,7 @@
             "Empty",
             "Booked",
             "Cleaning"});
-            this.cbRoomStatus4.Location = new System.Drawing.Point(383, 641);
+            this.cbRoomStatus4.Location = new System.Drawing.Point(383, 612);
             this.cbRoomStatus4.Name = "cbRoomStatus4";
             this.cbRoomStatus4.Size = new System.Drawing.Size(118, 23);
             this.cbRoomStatus4.TabIndex = 6;
@@ -1027,7 +907,7 @@
             "Empty",
             "Booked",
             "Cleaning"});
-            this.cbRoomStatus5.Location = new System.Drawing.Point(686, 641);
+            this.cbRoomStatus5.Location = new System.Drawing.Point(686, 612);
             this.cbRoomStatus5.Name = "cbRoomStatus5";
             this.cbRoomStatus5.Size = new System.Drawing.Size(118, 23);
             this.cbRoomStatus5.TabIndex = 6;
@@ -1040,7 +920,7 @@
             "Empty",
             "Booked",
             "Cleaning"});
-            this.cbRoomStatus6.Location = new System.Drawing.Point(999, 641);
+            this.cbRoomStatus6.Location = new System.Drawing.Point(999, 612);
             this.cbRoomStatus6.Name = "cbRoomStatus6";
             this.cbRoomStatus6.Size = new System.Drawing.Size(118, 23);
             this.cbRoomStatus6.TabIndex = 6;
@@ -1069,7 +949,7 @@
             // 
             // btnDetail2
             // 
-            this.btnDetail2.Location = new System.Drawing.Point(598, 354);
+            this.btnDetail2.Location = new System.Drawing.Point(599, 329);
             this.btnDetail2.Name = "btnDetail2";
             this.btnDetail2.Size = new System.Drawing.Size(75, 23);
             this.btnDetail2.TabIndex = 8;
@@ -1078,7 +958,7 @@
             // 
             // btnCheckOut2
             // 
-            this.btnCheckOut2.Location = new System.Drawing.Point(702, 354);
+            this.btnCheckOut2.Location = new System.Drawing.Point(703, 329);
             this.btnCheckOut2.Name = "btnCheckOut2";
             this.btnCheckOut2.Size = new System.Drawing.Size(75, 23);
             this.btnCheckOut2.TabIndex = 8;
@@ -1087,7 +967,7 @@
             // 
             // btnDetail5
             // 
-            this.btnDetail5.Location = new System.Drawing.Point(598, 695);
+            this.btnDetail5.Location = new System.Drawing.Point(598, 663);
             this.btnDetail5.Name = "btnDetail5";
             this.btnDetail5.Size = new System.Drawing.Size(75, 23);
             this.btnDetail5.TabIndex = 8;
@@ -1096,7 +976,7 @@
             // 
             // btnCheckOut5
             // 
-            this.btnCheckOut5.Location = new System.Drawing.Point(702, 695);
+            this.btnCheckOut5.Location = new System.Drawing.Point(702, 663);
             this.btnCheckOut5.Name = "btnCheckOut5";
             this.btnCheckOut5.Size = new System.Drawing.Size(75, 23);
             this.btnCheckOut5.TabIndex = 8;
@@ -1105,7 +985,7 @@
             // 
             // btnDetail1
             // 
-            this.btnDetail1.Location = new System.Drawing.Point(295, 356);
+            this.btnDetail1.Location = new System.Drawing.Point(296, 331);
             this.btnDetail1.Name = "btnDetail1";
             this.btnDetail1.Size = new System.Drawing.Size(75, 23);
             this.btnDetail1.TabIndex = 8;
@@ -1114,7 +994,7 @@
             // 
             // btnCheckOut1
             // 
-            this.btnCheckOut1.Location = new System.Drawing.Point(399, 356);
+            this.btnCheckOut1.Location = new System.Drawing.Point(400, 331);
             this.btnCheckOut1.Name = "btnCheckOut1";
             this.btnCheckOut1.Size = new System.Drawing.Size(75, 23);
             this.btnCheckOut1.TabIndex = 8;
@@ -1123,7 +1003,7 @@
             // 
             // btnDetail4
             // 
-            this.btnDetail4.Location = new System.Drawing.Point(295, 695);
+            this.btnDetail4.Location = new System.Drawing.Point(295, 663);
             this.btnDetail4.Name = "btnDetail4";
             this.btnDetail4.Size = new System.Drawing.Size(75, 23);
             this.btnDetail4.TabIndex = 8;
@@ -1132,7 +1012,7 @@
             // 
             // btnCheckOut4
             // 
-            this.btnCheckOut4.Location = new System.Drawing.Point(399, 695);
+            this.btnCheckOut4.Location = new System.Drawing.Point(399, 663);
             this.btnCheckOut4.Name = "btnCheckOut4";
             this.btnCheckOut4.Size = new System.Drawing.Size(75, 23);
             this.btnCheckOut4.TabIndex = 8;
@@ -1141,7 +1021,7 @@
             // 
             // btnDetail3
             // 
-            this.btnDetail3.Location = new System.Drawing.Point(911, 356);
+            this.btnDetail3.Location = new System.Drawing.Point(912, 331);
             this.btnDetail3.Name = "btnDetail3";
             this.btnDetail3.Size = new System.Drawing.Size(75, 23);
             this.btnDetail3.TabIndex = 8;
@@ -1150,7 +1030,7 @@
             // 
             // btnCheckOut3
             // 
-            this.btnCheckOut3.Location = new System.Drawing.Point(1015, 356);
+            this.btnCheckOut3.Location = new System.Drawing.Point(1016, 331);
             this.btnCheckOut3.Name = "btnCheckOut3";
             this.btnCheckOut3.Size = new System.Drawing.Size(75, 23);
             this.btnCheckOut3.TabIndex = 8;
@@ -1159,7 +1039,7 @@
             // 
             // btnDetail6
             // 
-            this.btnDetail6.Location = new System.Drawing.Point(911, 695);
+            this.btnDetail6.Location = new System.Drawing.Point(911, 663);
             this.btnDetail6.Name = "btnDetail6";
             this.btnDetail6.Size = new System.Drawing.Size(75, 23);
             this.btnDetail6.TabIndex = 8;
@@ -1168,7 +1048,7 @@
             // 
             // btnCheckOut6
             // 
-            this.btnCheckOut6.Location = new System.Drawing.Point(1015, 695);
+            this.btnCheckOut6.Location = new System.Drawing.Point(1015, 663);
             this.btnCheckOut6.Name = "btnCheckOut6";
             this.btnCheckOut6.Size = new System.Drawing.Size(75, 23);
             this.btnCheckOut6.TabIndex = 8;
@@ -1209,7 +1089,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(1190, 729);
+            this.ClientSize = new System.Drawing.Size(1147, 719);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pnImageSidebar);
             this.Controls.Add(this.btnCheckOut5);
@@ -1262,12 +1142,6 @@
             this.Controls.Add(this.lbCustomerNameInfo2);
             this.Controls.Add(this.lbCustomerNameInfo4);
             this.Controls.Add(this.lbCustomerNameInfo1);
-            this.Controls.Add(this.lbBookingNameInfo6);
-            this.Controls.Add(this.lbBookingNameInfo3);
-            this.Controls.Add(this.lbBookingNameInfo5);
-            this.Controls.Add(this.lbBookingNameInfo2);
-            this.Controls.Add(this.lbBookingNameInfo4);
-            this.Controls.Add(this.lbBookingNameInfo1);
             this.Controls.Add(this.label59);
             this.Controls.Add(this.label29);
             this.Controls.Add(this.label58);
@@ -1305,17 +1179,11 @@
             this.Controls.Add(this.label23);
             this.Controls.Add(this.label41);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label40);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label39);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.label38);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label37);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label36);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label);
             this.Controls.Add(this.lbTitle);
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -1335,7 +1203,6 @@
 
         private System.Windows.Forms.Button btnRoom;
         private System.Windows.Forms.Label lbTitle;
-        private System.Windows.Forms.Label label;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
@@ -1343,7 +1210,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lbRoomIDInfo1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label lbBookingNameInfo1;
         private System.Windows.Forms.Label lbCustomerNameInfo1;
         private System.Windows.Forms.Label lbNumberOfCustomerInfo1;
         private System.Windows.Forms.Label lbNationalityInfo1;
@@ -1353,7 +1219,6 @@
         private System.Windows.Forms.Panel pnSidebar;
         private System.Windows.Forms.Button btnCustomer;
         private System.Windows.Forms.Button btnEmployee;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
@@ -1361,14 +1226,12 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label lbRoomIDInfo2;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label lbBookingNameInfo2;
         private System.Windows.Forms.Label lbCustomerNameInfo2;
         private System.Windows.Forms.Label frmNumberOfCustomerInfo2;
         private System.Windows.Forms.Label lbNationalityInfo2;
         private System.Windows.Forms.Label lbCheckinDayInfo2;
         private System.Windows.Forms.Label lbCheckoutDayInfo2;
         private System.Windows.Forms.ComboBox cbRoomStatus2;
-        private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label25;
@@ -1376,18 +1239,14 @@
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label lbRoomIDInfo3;
         private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label lbBookingNameInfo3;
         private System.Windows.Forms.Label lbCustomerNameInfo3;
         private System.Windows.Forms.Label lbNumberOfCustomerInfo3;
         private System.Windows.Forms.Label lbNationalityInfo3;
         private System.Windows.Forms.Label lbCheckinDayInfo3;
         private System.Windows.Forms.Label lbCheckoutDayInfo;
         private System.Windows.Forms.ComboBox cbRoomStatus3;
-        private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label label40;
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Label label43;
@@ -1407,9 +1266,6 @@
         private System.Windows.Forms.Label label57;
         private System.Windows.Forms.Label label58;
         private System.Windows.Forms.Label label59;
-        private System.Windows.Forms.Label lbBookingNameInfo4;
-        private System.Windows.Forms.Label lbBookingNameInfo5;
-        private System.Windows.Forms.Label lbBookingNameInfo6;
         private System.Windows.Forms.Label lbCustomerNameInfo4;
         private System.Windows.Forms.Label lbCustomerNameInfo5;
         private System.Windows.Forms.Label lbCustomerNameInfo6;
