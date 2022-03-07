@@ -25,8 +25,8 @@ namespace HotelWinApp
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            DialogResult alert = MessageBox.Show("Are you sure?", "Delete member", MessageBoxButtons.YesNo);
-            if(alert != DialogResult.Yes)
+            DialogResult alert = MessageBox.Show("Are you sure?", "Logout", MessageBoxButtons.YesNo);
+            if(alert == DialogResult.Yes)
             {
                 Close();
             }           
