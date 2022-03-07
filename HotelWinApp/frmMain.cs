@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BusinessObject;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,11 +17,19 @@ namespace HotelWinApp
         {
             InitializeComponent();
         }
-
+        public EmployeeObject EmployeeInfo { get; set; }
         private void frmMain_Load(object sender, EventArgs e)
         {
 
         }
 
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            DialogResult alert = MessageBox.Show("Are you sure?", "Delete member", MessageBoxButtons.YesNo);
+            if(alert != DialogResult.Yes)
+            {
+                Close();
+            }           
+        }
     }
 }

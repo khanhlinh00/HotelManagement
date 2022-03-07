@@ -1067,6 +1067,7 @@
             // btnLogout
             // 
             this.btnLogout.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnLogout.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLogout.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnLogout.Location = new System.Drawing.Point(26, 32);
             this.btnLogout.Name = "btnLogout";
@@ -1074,6 +1075,7 @@
             this.btnLogout.TabIndex = 10;
             this.btnLogout.Text = "Logout";
             this.btnLogout.UseVisualStyleBackColor = false;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // panel1
             // 
