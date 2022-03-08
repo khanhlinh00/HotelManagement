@@ -31,5 +31,19 @@ namespace HotelWinApp
                 Close();
             }           
         }
+
+        private void btnEmployee_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                frmEmployeesManagement frmEmployeesManagement = new frmEmployeesManagement();
+                frmEmployeesManagement.ShowDialog();
+            }catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Employee");
+            }
+            
+
+        }
     }
 }

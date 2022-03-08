@@ -60,5 +60,39 @@ namespace Data_Access
             }
             return employee;
         }
+
+        //-----------------------------------------------------------------------
+        public List<EmployeeObject> GetEmloyeeList()
+        {
+            IDataReader dataReader = null;
+            string SQLSelect = "Select EmployeeID, EmployeeName, PathImage, username, password from Employee";
+            var members = new List<EmployeeObject>();
+            try
+            {
+                dataReader = DataProvider.GetDataReader(SQLSelect, CommandType.Text, out connection);
+                while (dataReader.Read())
+                {
+                    members.Add(new EmployeeObject
+                    {
+                        EmployeeID = dataReader.GetInt32(0),
+                        EmployeeName = dataReader.GetString(1),
+                        PathImage = dataReader.GetString(2),
+                        username = dataReader.GetString(3),
+                        password = dataReader.GetString(4),
+                        
+                    });
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            finally
+            {
+                dataReader.Close();
+                CloseConnection();
+            }
+            return members;
+        }
     }
 }

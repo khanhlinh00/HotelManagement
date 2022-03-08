@@ -10,3 +10,15 @@ E:\Works\CN5\PRN211\Code PRN\HotelManagement\BusinessObject\obj\Debug\net5.0\Bus
 E:\Works\CN5\PRN211\Code PRN\HotelManagement\BusinessObject\obj\Debug\net5.0\BusinessObject.dll
 E:\Works\CN5\PRN211\Code PRN\HotelManagement\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll
 E:\Works\CN5\PRN211\Code PRN\HotelManagement\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
+D:\CN5\PRN211\HotelManagement\BusinessObject\bin\Debug\net5.0\BusinessObject.deps.json
+D:\CN5\PRN211\HotelManagement\BusinessObject\bin\Debug\net5.0\BusinessObject.dll
+D:\CN5\PRN211\HotelManagement\BusinessObject\bin\Debug\net5.0\BusinessObject.pdb
+D:\CN5\PRN211\HotelManagement\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.AssemblyReference.cache
+D:\CN5\PRN211\HotelManagement\BusinessObject\obj\Debug\net5.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\CN5\PRN211\HotelManagement\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfoInputs.cache
+D:\CN5\PRN211\HotelManagement\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfo.cs
+D:\CN5\PRN211\HotelManagement\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.CoreCompileInputs.cache
+D:\CN5\PRN211\HotelManagement\BusinessObject\obj\Debug\net5.0\BusinessObject.dll
+D:\CN5\PRN211\HotelManagement\BusinessObject\obj\Debug\net5.0\refint\BusinessObject.dll
+D:\CN5\PRN211\HotelManagement\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
+D:\CN5\PRN211\HotelManagement\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll
