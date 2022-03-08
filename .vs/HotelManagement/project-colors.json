@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9e477ffe-9bfe-4b2f-bef8-04bf211e33ec": {
+      "ProjectGuid": "9e477ffe-9bfe-4b2f-bef8-04bf211e33ec",
+      "DisplayName": "HotelWinApp",
+      "ColorIndex": 0
+    },
+    "06bd0800-b000-4d10-acf2-ea3f1d3e738f": {
+      "ProjectGuid": "06bd0800-b000-4d10-acf2-ea3f1d3e738f",
+      "DisplayName": "Data Access",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

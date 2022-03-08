@@ -28,3 +28,18 @@ D:\CN5\PRN211\HotelManagement\Data Access\bin\Debug\net5.0\BusinessObject.pdb
 D:\CN5\PRN211\HotelManagement\Data Access\obj\Debug\net5.0\Data Access.csproj.CopyComplete
 D:\CN5\PRN211\HotelManagement\Data Access\obj\Debug\net5.0\refint\Data Access.dll
 D:\CN5\PRN211\HotelManagement\Data Access\obj\Debug\net5.0\ref\Data Access.dll
+E:\Works\CN5\PRN211\HotelManagement\Data Access\bin\Debug\net5.0\Data Access.deps.json
+E:\Works\CN5\PRN211\HotelManagement\Data Access\bin\Debug\net5.0\Data Access.dll
+E:\Works\CN5\PRN211\HotelManagement\Data Access\bin\Debug\net5.0\ref\Data Access.dll
+E:\Works\CN5\PRN211\HotelManagement\Data Access\bin\Debug\net5.0\Data Access.pdb
+E:\Works\CN5\PRN211\HotelManagement\Data Access\bin\Debug\net5.0\BusinessObject.dll
+E:\Works\CN5\PRN211\HotelManagement\Data Access\bin\Debug\net5.0\BusinessObject.pdb
+E:\Works\CN5\PRN211\HotelManagement\Data Access\obj\Debug\net5.0\Data Access.csproj.AssemblyReference.cache
+E:\Works\CN5\PRN211\HotelManagement\Data Access\obj\Debug\net5.0\Data Access.GeneratedMSBuildEditorConfig.editorconfig
+E:\Works\CN5\PRN211\HotelManagement\Data Access\obj\Debug\net5.0\Data Access.AssemblyInfoInputs.cache
+E:\Works\CN5\PRN211\HotelManagement\Data Access\obj\Debug\net5.0\Data Access.AssemblyInfo.cs
+E:\Works\CN5\PRN211\HotelManagement\Data Access\obj\Debug\net5.0\Data Access.csproj.CoreCompileInputs.cache
+E:\Works\CN5\PRN211\HotelManagement\Data Access\obj\Debug\net5.0\Data Access.csproj.CopyComplete
+E:\Works\CN5\PRN211\HotelManagement\Data Access\obj\Debug\net5.0\Data Access.dll
+E:\Works\CN5\PRN211\HotelManagement\Data Access\obj\Debug\net5.0\ref\Data Access.dll
+E:\Works\CN5\PRN211\HotelManagement\Data Access\obj\Debug\net5.0\Data Access.pdb

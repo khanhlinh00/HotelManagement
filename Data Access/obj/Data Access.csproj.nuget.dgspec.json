@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CN5\\PRN211\\HotelManagement\\Data Access\\Data Access.csproj": {}
+    "E:\\Works\\CN5\\PRN211\\HotelManagement\\Data Access\\Data Access.csproj": {}
   },
   "projects": {
-    "D:\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj": {
+    "E:\\Works\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "E:\\Works\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "D:\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\CN5\\PRN211\\HotelManagement\\BusinessObject\\obj\\",
+        "projectPath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,21 +54,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\CN5\\PRN211\\HotelManagement\\Data Access\\Data Access.csproj": {
+    "E:\\Works\\CN5\\PRN211\\HotelManagement\\Data Access\\Data Access.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CN5\\PRN211\\HotelManagement\\Data Access\\Data Access.csproj",
+        "projectUniqueName": "E:\\Works\\CN5\\PRN211\\HotelManagement\\Data Access\\Data Access.csproj",
         "projectName": "Data Access",
-        "projectPath": "D:\\CN5\\PRN211\\HotelManagement\\Data Access\\Data Access.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\CN5\\PRN211\\HotelManagement\\Data Access\\obj\\",
+        "projectPath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\Data Access\\Data Access.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\Data Access\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +82,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "D:\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj"
+              "E:\\Works\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj"
               }
             }
           }
@@ -126,7 +126,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
