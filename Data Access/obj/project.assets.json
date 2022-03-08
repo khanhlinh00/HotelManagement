@@ -1856,11 +1856,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Works\\CN5\\PRN211\\Code PRN\\HotelManagement\\Data Access\\Data Access.csproj",
+      "projectUniqueName": "E:\\Works\\CN5\\PRN211\\HotelManagement\\Data Access\\Data Access.csproj",
       "projectName": "Data Access",
-      "projectPath": "E:\\Works\\CN5\\PRN211\\Code PRN\\HotelManagement\\Data Access\\Data Access.csproj",
+      "projectPath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\Data Access\\Data Access.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\Works\\CN5\\PRN211\\Code PRN\\HotelManagement\\Data Access\\obj\\",
+      "outputPath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\Data Access\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1877,8 +1877,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\Works\\CN5\\PRN211\\Code PRN\\HotelManagement\\BusinessObject\\BusinessObject.csproj": {
-              "projectPath": "E:\\Works\\CN5\\PRN211\\Code PRN\\HotelManagement\\BusinessObject\\BusinessObject.csproj"
+            "E:\\Works\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj": {
+              "projectPath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj"
             }
           }
         }

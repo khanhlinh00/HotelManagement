@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z4XaEmOPjrJ/9f3nPiAhvOL+NFMmxHIZ1oCZwCaTowAKgHQzhSqL+qxpN2CeDGRxcF/T5+CoxQ4rWrPmifZREA==",
+  "dgSpecHash": "s3Cr3AjtPCXNre88RG3/KjQKGgxD7vSvRC57I5pS632DYjdwXpIkN6dPHLQHbvI8PiReXNEiJs5FQG9PW+OsDg==",
   "success": true,
-  "projectFilePath": "E:\\Works\\CN5\\PRN211\\Code PRN\\HotelManagement\\HotelWinApp\\HotelWinApp.csproj",
+  "projectFilePath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\HotelWinApp\\HotelWinApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",
