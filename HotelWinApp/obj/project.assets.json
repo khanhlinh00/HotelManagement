@@ -1909,11 +1909,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Works\\CN5\\PRN211\\HotelManagement\\HotelWinApp\\HotelWinApp.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\HotelManagement\\HotelWinApp\\HotelWinApp.csproj",
       "projectName": "HotelWinApp",
-      "projectPath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\HotelWinApp\\HotelWinApp.csproj",
+      "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\HotelManagement\\HotelWinApp\\HotelWinApp.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\HotelWinApp\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\HotelManagement\\HotelWinApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1930,11 +1930,11 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "E:\\Works\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj": {
-              "projectPath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj"
+            "C:\\Users\\Admin\\Documents\\GitHub\\HotelManagement\\BusinessObject\\BusinessObject.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\HotelManagement\\BusinessObject\\BusinessObject.csproj"
             },
-            "E:\\Works\\CN5\\PRN211\\HotelManagement\\Data Access\\Data Access.csproj": {
-              "projectPath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\Data Access\\Data Access.csproj"
+            "C:\\Users\\Admin\\Documents\\GitHub\\HotelManagement\\Data Access\\Data Access.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\HotelManagement\\Data Access\\Data Access.csproj"
             }
           }
         }
@@ -1968,12 +1968,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.13, 5.0.13]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -1982,7 +1976,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
