@@ -31,7 +31,6 @@
             this.dvgRoom = new System.Windows.Forms.DataGridView();
             this.lbTitle = new System.Windows.Forms.Label();
             this.btnModifyService = new System.Windows.Forms.Button();
-            this.btnModifyRoomType = new System.Windows.Forms.Button();
             this.btnReturn = new System.Windows.Forms.Button();
             this.btnLoad = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dvgRoom)).BeginInit();
@@ -62,22 +61,13 @@
             // btnModifyService
             // 
             this.btnModifyService.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnModifyService.Location = new System.Drawing.Point(238, 8);
+            this.btnModifyService.Location = new System.Drawing.Point(311, 9);
             this.btnModifyService.Name = "btnModifyService";
             this.btnModifyService.Size = new System.Drawing.Size(172, 48);
             this.btnModifyService.TabIndex = 2;
             this.btnModifyService.Text = "Modify Service";
             this.btnModifyService.UseVisualStyleBackColor = true;
-            // 
-            // btnModifyRoomType
-            // 
-            this.btnModifyRoomType.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnModifyRoomType.Location = new System.Drawing.Point(460, 8);
-            this.btnModifyRoomType.Name = "btnModifyRoomType";
-            this.btnModifyRoomType.Size = new System.Drawing.Size(172, 48);
-            this.btnModifyRoomType.TabIndex = 2;
-            this.btnModifyRoomType.Text = "Modify Room Type";
-            this.btnModifyRoomType.UseVisualStyleBackColor = true;
+            this.btnModifyService.Click += new System.EventHandler(this.btnModifyService_Click);
             // 
             // btnReturn
             // 
@@ -88,6 +78,7 @@
             this.btnReturn.TabIndex = 3;
             this.btnReturn.Text = "Return";
             this.btnReturn.UseVisualStyleBackColor = true;
+            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
             // 
             // btnLoad
             // 
@@ -98,6 +89,7 @@
             this.btnLoad.TabIndex = 3;
             this.btnLoad.Text = "Load";
             this.btnLoad.UseVisualStyleBackColor = true;
+            this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click);
             // 
             // frmRoomManagement
             // 
@@ -106,7 +98,6 @@
             this.ClientSize = new System.Drawing.Size(773, 314);
             this.Controls.Add(this.btnLoad);
             this.Controls.Add(this.btnReturn);
-            this.Controls.Add(this.btnModifyRoomType);
             this.Controls.Add(this.btnModifyService);
             this.Controls.Add(this.lbTitle);
             this.Controls.Add(this.dvgRoom);
@@ -125,7 +116,6 @@
         private System.Windows.Forms.DataGridView dvgRoom;
         private System.Windows.Forms.Label lbTitle;
         private System.Windows.Forms.Button btnModifyService;
-        private System.Windows.Forms.Button btnModifyRoomType;
         private System.Windows.Forms.Button btnReturn;
         private System.Windows.Forms.Button btnLoad;
     }
