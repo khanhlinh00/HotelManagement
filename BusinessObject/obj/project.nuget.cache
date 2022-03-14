@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< Updated upstream
-  "dgSpecHash": "ttqadQJdBxwpWmMLDFVMGfLYk4Soj2WTUZlBjYLzOoVfM1VwxXuFm7wHcAq4LNnDyALgJqs5ILoVlnn0q+eC3w==",
+  "dgSpecHash": "PZx3cqd1JXcjto6LwpEx0ShUdIkFKBplz+JT5oE3ZdS9ocwooA+/lCPa7x7znxntHftvHjrgikJX9FoGHH0D/g==",
   "success": true,
-  "projectFilePath": "D:\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj",
-=======
-  "dgSpecHash": "M2JC8UmJLPDNB+YHip8uWsIjKV8cjTDUAKziGRmuMezdUqyUgOOECFCIAZaOYxqtDmIAaHzHvvrDno7b4QhOkA==",
-  "success": true,
-  "projectFilePath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj",
->>>>>>> Stashed changes
+  "projectFilePath": "C:\\Users\\Admin\\Documents\\GitHub\\HotelManagement\\BusinessObject\\BusinessObject.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Admin\\Documents\\GitHub\\HotelManagement\\BusinessObject\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
