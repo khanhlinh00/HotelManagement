@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "ttqadQJdBxwpWmMLDFVMGfLYk4Soj2WTUZlBjYLzOoVfM1VwxXuFm7wHcAq4LNnDyALgJqs5ILoVlnn0q+eC3w==",
   "success": true,
   "projectFilePath": "D:\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj",
+=======
+  "dgSpecHash": "M2JC8UmJLPDNB+YHip8uWsIjKV8cjTDUAKziGRmuMezdUqyUgOOECFCIAZaOYxqtDmIAaHzHvvrDno7b4QhOkA==",
+  "success": true,
+  "projectFilePath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj",
+>>>>>>> Stashed changes
   "expectedPackageFiles": [],
   "logs": []
 }

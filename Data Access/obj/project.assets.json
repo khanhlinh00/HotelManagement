@@ -1856,11 +1856,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream
       "projectUniqueName": "D:\\CN5\\PRN211\\HotelManagement\\Data Access\\Data Access.csproj",
       "projectName": "Data Access",
       "projectPath": "D:\\CN5\\PRN211\\HotelManagement\\Data Access\\Data Access.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
       "outputPath": "D:\\CN5\\PRN211\\HotelManagement\\Data Access\\obj\\",
+=======
+      "projectUniqueName": "E:\\Works\\CN5\\PRN211\\HotelManagement\\Data Access\\Data Access.csproj",
+      "projectName": "Data Access",
+      "projectPath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\Data Access\\Data Access.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\Data Access\\obj\\",
+>>>>>>> Stashed changes
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1877,8 +1885,13 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+<<<<<<< Updated upstream
             "D:\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj": {
               "projectPath": "D:\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj"
+=======
+            "E:\\Works\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj": {
+              "projectPath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj"
+>>>>>>> Stashed changes
             }
           }
         }
@@ -1921,7 +1934,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< Updated upstream
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
       }
     }
   }

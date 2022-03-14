@@ -13,11 +13,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream
       "projectUniqueName": "D:\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj",
       "projectName": "BusinessObject",
       "projectPath": "D:\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
       "outputPath": "D:\\CN5\\PRN211\\HotelManagement\\BusinessObject\\obj\\",
+=======
+      "projectUniqueName": "E:\\Works\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj",
+      "projectName": "BusinessObject",
+      "projectPath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\BusinessObject\\obj\\",
+>>>>>>> Stashed changes
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +68,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< Updated upstream
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
       }
     }
   }

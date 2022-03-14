@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
     "D:\\CN5\\PRN211\\HotelManagement\\HotelWinApp\\HotelWinApp.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "D:\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
         "outputPath": "D:\\CN5\\PRN211\\HotelManagement\\BusinessObject\\obj\\",
+=======
+    "E:\\Works\\CN5\\PRN211\\HotelManagement\\HotelWinApp\\HotelWinApp.csproj": {}
+  },
+  "projects": {
+    "E:\\Works\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Works\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj",
+        "projectName": "BusinessObject",
+        "projectPath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\BusinessObject\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,6 +68,7 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< Updated upstream
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
@@ -66,6 +81,20 @@
         "projectPath": "D:\\CN5\\PRN211\\HotelManagement\\Data Access\\Data Access.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
         "outputPath": "D:\\CN5\\PRN211\\HotelManagement\\Data Access\\obj\\",
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Works\\CN5\\PRN211\\HotelManagement\\Data Access\\Data Access.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Works\\CN5\\PRN211\\HotelManagement\\Data Access\\Data Access.csproj",
+        "projectName": "Data Access",
+        "projectPath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\Data Access\\Data Access.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\Data Access\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +111,13 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+<<<<<<< Updated upstream
               "D:\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj": {
                 "projectPath": "D:\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj"
+=======
+              "E:\\Works\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -126,6 +160,7 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< Updated upstream
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
@@ -138,6 +173,20 @@
         "projectPath": "D:\\CN5\\PRN211\\HotelManagement\\HotelWinApp\\HotelWinApp.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
         "outputPath": "D:\\CN5\\PRN211\\HotelManagement\\HotelWinApp\\obj\\",
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Works\\CN5\\PRN211\\HotelManagement\\HotelWinApp\\HotelWinApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Works\\CN5\\PRN211\\HotelManagement\\HotelWinApp\\HotelWinApp.csproj",
+        "projectName": "HotelWinApp",
+        "projectPath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\HotelWinApp\\HotelWinApp.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\HotelWinApp\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -154,11 +203,19 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
+<<<<<<< Updated upstream
               "D:\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj": {
                 "projectPath": "D:\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj"
               },
               "D:\\CN5\\PRN211\\HotelManagement\\Data Access\\Data Access.csproj": {
                 "projectPath": "D:\\CN5\\PRN211\\HotelManagement\\Data Access\\Data Access.csproj"
+=======
+              "E:\\Works\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj"
+              },
+              "E:\\Works\\CN5\\PRN211\\HotelManagement\\Data Access\\Data Access.csproj": {
+                "projectPath": "E:\\Works\\CN5\\PRN211\\HotelManagement\\Data Access\\Data Access.csproj"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -192,6 +249,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.13, 5.0.13]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -200,7 +263,11 @@
               "privateAssets": "none"
             }
           },
+<<<<<<< Updated upstream
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
         }
       }
     }
