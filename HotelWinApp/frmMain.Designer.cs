@@ -149,6 +149,7 @@
             this.btnRoom.TabIndex = 0;
             this.btnRoom.Text = "Rooms Management";
             this.btnRoom.UseVisualStyleBackColor = false;
+            this.btnRoom.Click += new System.EventHandler(this.btnRoom_Click);
             // 
             // lbTitle
             // 
@@ -307,6 +308,7 @@
             this.btnCustomer.TabIndex = 0;
             this.btnCustomer.Text = "Customers Management";
             this.btnCustomer.UseVisualStyleBackColor = false;
+            this.btnCustomer.Click += new System.EventHandler(this.btnCustomer_Click);
             // 
             // btnEmployee
             // 
@@ -1009,6 +1011,7 @@
             this.btnDetail1.TabIndex = 8;
             this.btnDetail1.Text = "Detail";
             this.btnDetail1.UseVisualStyleBackColor = true;
+            this.btnDetail1.Click += new System.EventHandler(this.btnDetail1_Click);
             // 
             // btnCheckOut1
             // 

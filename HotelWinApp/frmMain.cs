@@ -45,5 +45,44 @@ namespace HotelWinApp
             
 
         }
+
+        private void btnDetail1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                frmRoomDetail frmRoomDetail = new frmRoomDetail();
+                frmRoomDetail.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Employee");
+            }
+        }
+
+        private void btnRoom_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                frmRoomManagement frmRoomManagement = new frmRoomManagement();
+                frmRoomManagement.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Employee");
+            }
+        }
+
+        private void btnCustomer_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                frmCustomerManagement frmCustomerManagement = new frmCustomerManagement();
+                frmCustomerManagement.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Employee");
+            }
+        }
     }
 }

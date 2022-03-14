@@ -21,5 +21,18 @@ namespace HotelWinApp
         {
 
         }
+
+        private void btnAddService_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                frmAddService frmRoomDetail = new frmAddService();
+                frmRoomDetail.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Employee");
+            }
+        }
     }
 }

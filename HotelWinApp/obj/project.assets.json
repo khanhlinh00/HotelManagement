@@ -1904,19 +1904,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\HotelManagement\\HotelWinApp\\HotelWinApp.csproj",
+      "projectUniqueName": "D:\\CN5\\PRN211\\HotelManagement\\HotelWinApp\\HotelWinApp.csproj",
       "projectName": "HotelWinApp",
-      "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\HotelManagement\\HotelWinApp\\HotelWinApp.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\HotelManagement\\HotelWinApp\\obj\\",
+      "projectPath": "D:\\CN5\\PRN211\\HotelManagement\\HotelWinApp\\HotelWinApp.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "D:\\CN5\\PRN211\\HotelManagement\\HotelWinApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1930,11 +1930,11 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\Admin\\Documents\\GitHub\\HotelManagement\\BusinessObject\\BusinessObject.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\HotelManagement\\BusinessObject\\BusinessObject.csproj"
+            "D:\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj": {
+              "projectPath": "D:\\CN5\\PRN211\\HotelManagement\\BusinessObject\\BusinessObject.csproj"
             },
-            "C:\\Users\\Admin\\Documents\\GitHub\\HotelManagement\\Data Access\\Data Access.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\HotelManagement\\Data Access\\Data Access.csproj"
+            "D:\\CN5\\PRN211\\HotelManagement\\Data Access\\Data Access.csproj": {
+              "projectPath": "D:\\CN5\\PRN211\\HotelManagement\\Data Access\\Data Access.csproj"
             }
           }
         }
@@ -1976,7 +1976,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
