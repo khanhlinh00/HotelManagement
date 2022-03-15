@@ -33,18 +33,22 @@
             this.btnModifyService = new System.Windows.Forms.Button();
             this.btnReturn = new System.Windows.Forms.Button();
             this.btnLoad = new System.Windows.Forms.Button();
+            this.txtRoomID = new System.Windows.Forms.TextBox();
+            this.txtRoomType = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dvgRoom)).BeginInit();
             this.SuspendLayout();
             // 
             // dvgRoom
             // 
             this.dvgRoom.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dvgRoom.Location = new System.Drawing.Point(12, 82);
+            this.dvgRoom.Location = new System.Drawing.Point(12, 112);
             this.dvgRoom.Name = "dvgRoom";
             this.dvgRoom.ReadOnly = true;
             this.dvgRoom.RowTemplate.Height = 25;
             this.dvgRoom.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dvgRoom.Size = new System.Drawing.Size(651, 224);
+            this.dvgRoom.Size = new System.Drawing.Size(651, 194);
             this.dvgRoom.TabIndex = 0;
             // 
             // lbTitle
@@ -91,11 +95,47 @@
             this.btnLoad.UseVisualStyleBackColor = true;
             this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click);
             // 
+            // txtRoomID
+            // 
+            this.txtRoomID.Location = new System.Drawing.Point(123, 77);
+            this.txtRoomID.Name = "txtRoomID";
+            this.txtRoomID.Size = new System.Drawing.Size(100, 23);
+            this.txtRoomID.TabIndex = 4;
+            // 
+            // txtRoomType
+            // 
+            this.txtRoomType.Location = new System.Drawing.Point(438, 77);
+            this.txtRoomType.Name = "txtRoomType";
+            this.txtRoomType.Size = new System.Drawing.Size(100, 23);
+            this.txtRoomType.TabIndex = 5;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(366, 80);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(66, 15);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Room Type";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(58, 80);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(53, 15);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Room ID";
+            // 
             // frmRoomManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(773, 314);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtRoomType);
+            this.Controls.Add(this.txtRoomID);
             this.Controls.Add(this.btnLoad);
             this.Controls.Add(this.btnReturn);
             this.Controls.Add(this.btnModifyService);
@@ -118,5 +158,9 @@
         private System.Windows.Forms.Button btnModifyService;
         private System.Windows.Forms.Button btnReturn;
         private System.Windows.Forms.Button btnLoad;
+        private System.Windows.Forms.TextBox txtRoomID;
+        private System.Windows.Forms.TextBox txtRoomType;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

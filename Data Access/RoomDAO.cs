@@ -31,7 +31,7 @@ namespace Data_Access
         public IEnumerable<RoomObject> GetRoomsList()
         {
             IDataReader dataReader = null;
-            string SQLSelect = "Select RoomID, RoomTypeID, RoomPrice from Room";
+            string SQLSelect = "Select RoomID, RoomType, RoomPrice from Room";
             var rooms = new List<RoomObject>();
             try
             {
@@ -40,7 +40,7 @@ namespace Data_Access
                 {
                     rooms.Add(new RoomObject {
                         RoomID = dataReader.GetInt32(0),
-                        RoomTypeID = dataReader.GetInt32(1),
+                        RoomType = dataReader.GetString(1),
                         RoomPrice = dataReader.GetDecimal(2)
                     });
                 }
@@ -57,7 +57,7 @@ namespace Data_Access
         {
             RoomObject room = null;
             IDataReader dataReader = null;
-            string SQLSelect = "Select RoomID, RoomTypeID, RoomPrice from Room where RoomID = @RoomID";
+            string SQLSelect = "Select RoomID, RoomType, RoomPrice from Room where RoomID = @RoomID";
             try
             {
                 var param = DataProvider.CreateParameter("@RoomID", 4, roomID, DbType.Int32);
@@ -67,7 +67,7 @@ namespace Data_Access
                     room = new RoomObject
                     {
                         RoomID = dataReader.GetInt32(0),
-                        RoomTypeID = dataReader.GetInt32(1),
+                        RoomType = dataReader.GetString(1),
                         RoomPrice = dataReader.GetDecimal(2)
                     };
                 }
@@ -89,10 +89,10 @@ namespace Data_Access
                 RoomObject pro = GetRoomByID(room.RoomID);
                 if(pro == null)
                 {
-                    string SQLInsert = "Insert Room values(@RoomID,@RoomTypeID,@RoomPrice";
+                    string SQLInsert = "Insert Room values(@RoomID,@RoomType,@RoomPrice";
                     var parameters = new List<SqlParameter>();
                     parameters.Add(DataProvider.CreateParameter("@RoomID", 4, room.RoomID, DbType.Int32));
-                    parameters.Add(DataProvider.CreateParameter("@RoomTypeID", 4, room.RoomTypeID, DbType.Int32));
+                    parameters.Add(DataProvider.CreateParameter("@RoomType", 50, room.RoomType, DbType.String));
                     parameters.Add(DataProvider.CreateParameter("@RoomPrice", 50, room.RoomPrice, DbType.Decimal));
                     DataProvider.Insert(SQLInsert, CommandType.Text, parameters.ToArray());
                 }
@@ -116,11 +116,10 @@ namespace Data_Access
                 RoomObject pro = GetRoomByID(room.RoomID);
                 if (pro == null)
                 {
-                    string SQLUpdate = "Update Room set Price = @Price where RoomID = @RoomID";
+                    string SQLUpdate = "Update Room set RoomType = @RoomType where RoomID = @RoomID";
                     var parameters = new List<SqlParameter>();
                     parameters.Add(DataProvider.CreateParameter("@RoomID", 4, room.RoomID, DbType.Int32));
-                    parameters.Add(DataProvider.CreateParameter("@RoomTypeID", 4, room.RoomTypeID, DbType.Int32));
-                    parameters.Add(DataProvider.CreateParameter("@RoomPrice", 50, room.RoomPrice, DbType.Decimal));
+                    parameters.Add(DataProvider.CreateParameter("@RoomType", 50, room.RoomType, DbType.String));
                     DataProvider.Insert(SQLUpdate, CommandType.Text, parameters.ToArray());
                 }
                 else

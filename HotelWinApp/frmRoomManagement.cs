@@ -50,7 +50,40 @@ namespace HotelWinApp
         }
         private void frmRoomManagement_Load(object sender, EventArgs e)
         {
+            dvgRoom.CellDoubleClick += DvgRoom_CellDoubleClick;
+        }
 
+        private void DvgRoom_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            frmRoomType frmRoomType = new frmRoomType
+            {
+                Text = "Update Room",
+                InsertOrUpdate = true,
+                RoomInfo = GetRoomObject(),
+                RoomRepository = roomRepository
+            };
+            if(frmRoomType.ShowDialog() == DialogResult.OK)
+            {
+                LoadRoomList();
+                source.Position = source.Count - 1;
+            }
+        }
+
+        private RoomObject GetRoomObject()
+        {
+            RoomObject room = null;
+            try
+            {
+                room = new RoomObject
+                {
+                    RoomID = int.Parse(txtRoomID.Text),
+                    RoomType = txtRoomType.Text
+                };
+            } catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Get room");
+            }
+            return room;
         }
 
         private void btnReturn_Click(object sender, EventArgs e)
@@ -75,6 +108,5 @@ namespace HotelWinApp
             }
 
         }
-
     }
 }

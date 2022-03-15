@@ -30,7 +30,7 @@ namespace HotelWinApp
             if(InsertOrUpdate == true)
             {
                 comboBox1.Text = RoomInfo.RoomID.ToString();
-                cbRoomType.Text = RoomInfo.RoomTypeID.ToString();
+                cbRoomType.Text = RoomInfo.RoomType.Trim();
             }
         }
 
@@ -41,7 +41,7 @@ namespace HotelWinApp
                 var room = new RoomObject
                 {
                     RoomID = int.Parse(comboBox1.Text),
-                    RoomTypeID = int.Parse(cbRoomType.Text)
+                    RoomType = cbRoomType.Text
                 };
                 if(InsertOrUpdate == false)
                 {
