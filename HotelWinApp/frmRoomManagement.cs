@@ -77,7 +77,7 @@ namespace HotelWinApp
                 room = new RoomObject
                 {
                     RoomID = int.Parse(txtRoomID.Text),
-                    RoomType = txtRoomType.Text
+                    RoomTypeID = int.Parse(txtRoomType.Text)
                 };
             } catch (Exception ex)
             {
