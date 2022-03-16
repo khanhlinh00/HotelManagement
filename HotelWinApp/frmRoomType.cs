@@ -33,10 +33,6 @@ namespace HotelWinApp
                 cbRoomType.Text = RoomInfo.RoomTypeID.ToString();
             }
         }
-        public void ShowRoomType()
-        {
-            lbRoomType.Text = frmRoomType.roomType;
-        }
         private void btnSave_Click(object sender, EventArgs e)
         {
             try
@@ -63,18 +59,5 @@ namespace HotelWinApp
             Close();
         }
 
-        public void ShowRoomTypeInfo()
-        {
-            var roomTypeID = RoomRepository.GetRoomByID(1).RoomTypeID;
-            var type = RoomRepository.GetRoomTypeByID(roomTypeID).RoomType;
-            if (type == null)
-            {
-                lbRoomType.Text = "None";
-            }
-            else
-            {
-                lbRoomType.Text = type;
-            }
-        }
     }
 }

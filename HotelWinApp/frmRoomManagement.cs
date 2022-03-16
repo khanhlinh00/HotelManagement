@@ -34,6 +34,12 @@ namespace HotelWinApp
                     source = new BindingSource();
                     source.DataSource = listRoom;
 
+                    txtRoomID.DataBindings.Clear();
+                    txtRoomType.DataBindings.Clear();
+
+                    txtRoomID.DataBindings.Add("Text", source, "RoomID");
+                    txtRoomType.DataBindings.Add("Text", source, "RoomTypeID");
+
                     dvgRoom.DataSource = null;  // Clear grid data
                     dvgRoom.DataSource = source;
 

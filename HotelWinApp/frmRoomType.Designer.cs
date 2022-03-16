@@ -31,12 +31,10 @@
             this.lbTitle = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.cbRoomType = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lbRoomType = new System.Windows.Forms.Label();
+            this.txtRoomType = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lbTitle
@@ -69,18 +67,6 @@
             this.label3.Size = new System.Drawing.Size(114, 21);
             this.label3.TabIndex = 5;
             this.label3.Text = "Room Number";
-            // 
-            // cbRoomType
-            // 
-            this.cbRoomType.FormattingEnabled = true;
-            this.cbRoomType.Items.AddRange(new object[] {
-            "Normal",
-            "Good",
-            "VIP"});
-            this.cbRoomType.Location = new System.Drawing.Point(336, 67);
-            this.cbRoomType.Name = "cbRoomType";
-            this.cbRoomType.Size = new System.Drawing.Size(133, 23);
-            this.cbRoomType.TabIndex = 6;
             // 
             // comboBox1
             // 
@@ -119,33 +105,20 @@
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // label1
+            // txtRoomType
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(292, 101);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 15);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Room Type";
-            // 
-            // lbRoomType
-            // 
-            this.lbRoomType.AutoSize = true;
-            this.lbRoomType.Location = new System.Drawing.Point(372, 101);
-            this.lbRoomType.Name = "lbRoomType";
-            this.lbRoomType.Size = new System.Drawing.Size(32, 15);
-            this.lbRoomType.TabIndex = 7;
-            this.lbRoomType.Text = "_____";
+            this.txtRoomType.Location = new System.Drawing.Point(347, 67);
+            this.txtRoomType.Name = "txtRoomType";
+            this.txtRoomType.Size = new System.Drawing.Size(100, 23);
+            this.txtRoomType.TabIndex = 7;
             // 
             // frmRoomType
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(478, 192);
-            this.Controls.Add(this.lbRoomType);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtRoomType);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.cbRoomType);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnCancel);
@@ -164,11 +137,9 @@
         private System.Windows.Forms.Label lbTitle;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox cbRoomType;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnSave;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lbRoomType;
+        private System.Windows.Forms.TextBox txtRoomType;
     }
 }
