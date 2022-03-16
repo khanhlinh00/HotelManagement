@@ -35,6 +35,8 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lbRoomType = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbTitle
@@ -117,11 +119,31 @@
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(292, 101);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(66, 15);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Room Type";
+            // 
+            // lbRoomType
+            // 
+            this.lbRoomType.AutoSize = true;
+            this.lbRoomType.Location = new System.Drawing.Point(372, 101);
+            this.lbRoomType.Name = "lbRoomType";
+            this.lbRoomType.Size = new System.Drawing.Size(32, 15);
+            this.lbRoomType.TabIndex = 7;
+            this.lbRoomType.Text = "_____";
+            // 
             // frmRoomType
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(478, 192);
+            this.Controls.Add(this.lbRoomType);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.cbRoomType);
             this.Controls.Add(this.label2);
@@ -146,5 +168,7 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbRoomType;
     }
 }

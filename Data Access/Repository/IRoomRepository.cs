@@ -11,6 +11,7 @@ namespace Data_Access.Repository
     {
         RoomObject GetRoomByID(int roomID);
         IEnumerable<RoomObject> GetRooms();
+        RoomTypeObject GetRoomTypeByID(int roomTypeID);
         void InsertRoom(RoomObject room);
         void DeleteRoom(int roomID);
         void UpdateRoom(RoomObject room);

@@ -11,6 +11,7 @@ namespace Data_Access.Repository
     public class RoomRepository : IRoomRepository
     {
         public RoomObject GetRoomByID(int roomID) => RoomDAO.Instance.GetRoomByID(roomID);
+        public RoomTypeObject GetRoomTypeByID(int roomTypeID) => RoomDAO.Instance.GetRoomTypeByID(roomTypeID);
         public IEnumerable<RoomObject> GetRooms() => RoomDAO.Instance.GetRoomsList();
         public void InsertRoom(RoomObject room) => RoomDAO.Instance.AddNew(room);
 

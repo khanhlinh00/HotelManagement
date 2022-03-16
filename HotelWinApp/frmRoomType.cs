@@ -22,7 +22,7 @@ namespace HotelWinApp
         public IRoomRepository RoomRepository { get; set; }
         public bool InsertOrUpdate { get; set; }
         public RoomObject RoomInfo { get; set; }
-
+        public static string roomType = "";
         private void frmRoomType_Load(object sender, EventArgs e)
         {
             cbRoomType.SelectedIndex = 0;
@@ -33,7 +33,10 @@ namespace HotelWinApp
                 cbRoomType.Text = RoomInfo.RoomTypeID.ToString();
             }
         }
-
+        public void ShowRoomType()
+        {
+            lbRoomType.Text = frmRoomType.roomType;
+        }
         private void btnSave_Click(object sender, EventArgs e)
         {
             try
@@ -58,6 +61,20 @@ namespace HotelWinApp
         private void btnCancel_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        public void ShowRoomTypeInfo()
+        {
+            var roomTypeID = RoomRepository.GetRoomByID(1).RoomTypeID;
+            var type = RoomRepository.GetRoomTypeByID(roomTypeID).RoomType;
+            if (type == null)
+            {
+                lbRoomType.Text = "None";
+            }
+            else
+            {
+                lbRoomType.Text = type;
+            }
         }
     }
 }

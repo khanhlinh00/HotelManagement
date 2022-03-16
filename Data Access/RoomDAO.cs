@@ -162,5 +162,34 @@ namespace Data_Access
                 CloseConnection();
             }
         }
+        public RoomTypeObject GetRoomTypeByID(int roomTypeID)
+        {
+            RoomTypeObject roomType = null;
+            IDataReader dataReader = null;
+            string SQLSelect = "Select RoomTypeID, RoomType from RoomType where RoomTypeID = @RoomTypeID";
+            try
+            {
+                var param = DataProvider.CreateParameter("@RoomTypeID", 4, roomTypeID, DbType.Int32);
+                dataReader = DataProvider.GetDataReader(SQLSelect, CommandType.Text, out connection, param);
+                if (dataReader.Read())
+                {
+                    roomType = new RoomTypeObject
+                    {
+                        RoomTypeID = dataReader.GetInt32(0),
+                        RoomType = dataReader.GetString(1)
+                    };
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            finally
+            {
+                dataReader.Close();
+                CloseConnection();
+            }
+            return roomType;
+        }
     }
 }
